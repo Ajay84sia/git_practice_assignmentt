@@ -1,10 +1,10 @@
 let name="nadan";
 let str="";
-for(let i=0;i<name;i--){
-    name = str + name[i];
+for(let i=0;i<name.length;i++){
+    str = str + name[i];
 }
 if(str==name){
-    print(name,"is a palindrome");
+    console.log(name,"is a palindrome");
 }else{
-    print(name,"is not a palindrome");
+    console.log(name,"is not a palindrome");
 }
